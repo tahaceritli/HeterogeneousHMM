@@ -69,7 +69,7 @@ class MultinomialHMM(BaseHMM):
         missing=np.nan,
         nr_no_train_de=0,
         state_no_train_de=None,
-        learning_rate=0.1,
+        learning_rate=0.,
         verbose=True,
     ):
         """Constructor method
